@@ -1,0 +1,79 @@
+*{
+    font-family: 'Gilroy';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: rgb(155, 184, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#panel{
+    overflow: hidden;
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+#ptop{
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0px 30%;/* 0px up-down and 20px right-left*/
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #346b15;
+}
+.elem{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-weight: 500px;
+    font-size: 22px;
+}
+.box{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(55, 104, 60);
+    font-size: 22px;   
+    font-weight: 600;
+}
+#pbtm{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #346b15;
+    flex-wrap: wrap;/*it will allow elements to move to next line, by defalut is nowarp*/
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+#bubble{
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+    background-color: #346b15;
+    font-weight: 700;
+    color: #fff;
+}
+#bubble:hover{
+    cursor: pointer;
+    background-color: #2c4d1a;
+}
