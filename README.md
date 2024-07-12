@@ -14,6 +14,8 @@ Game description :
 Game Interface
 
 Hit Number: Displays the current number you need to find in the bubbles.
+
 Timer: Shows the remaining time to play.
+
 Score: Displays your current score.
 
